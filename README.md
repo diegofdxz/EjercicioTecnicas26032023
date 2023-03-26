@@ -37,9 +37,18 @@ return bisect (med,max);
 }
 
 }
-a) ¿Qué calcula la llamada a la función recursiva bisect(0,N)? Si cambiamos el 
-valor de N, ¿qué estaríamos calculando? ¿Y si cambiásemos la función f(x)?
+
+a) ¿Qué calcula la llamada a la función recursiva bisect(0,N)?
+Calcula la raiz cuadrada de N, utilizando el método de bisección
+
+Si cambiamos el valor de N, ¿qué estaríamos calculando?
+Calculariamos la raiz cuadrada de otro numero, en el caso del codigo original este calcula la raiz cuadrada de 2
+
+¿Y si cambiásemos la función f(x)?
+Si cambiamos la función f(x) en el código, estamos cambiando la función que se utiliza para encontrar el cero utilizando el método de bisección.
+
 b) Implemente un algoritmo iterativo equivalente.
+codigo en src/main/java/Ej1/Ej1.java
 
 
 2. Dado el siguiente algoritmo recursivo:
@@ -67,9 +76,16 @@ f(num,div+1);
 }
 
 a) Dado un número cualquiera x, ¿qué nos muestra por pantalla la llamada a la función 
-recursiva f(x,2)? ¿Cuál sería un nombre más adecuado para la función f?
+recursiva f(x,2)? 
+muestra por pantala todos los factores primos del numero x
+
+¿Cuál sería un nombre más adecuado para la función f?
+mostrarPrimos
+
 b) Implemente un algoritmo iterativo y uno implementado mediante expresiones lambda 
 equivalentes.
+se encuentra en src/main/java/Ej2/Ej2.java
+
 3. Construya una función que convierta un número decimal en una cadena que represente el 
 valor del número en hexadecimal (base 16). A continuación, generalice la función para 
 convertir un número decimal en un número en base B (con B<10). Resuélvalo mediante 
